@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --BgColor: rgb(208, 205, 205);
+    --TxtColor: rgb(0,0,0);
+    --MenuColor: rgba(39,86,114,255);
+    --SpanColor: rgba(39,86,114,255);
+    --glos: rgb(51, 128, 93);
+    --font-family: "Linux Libertine", sans-serif;    
+}
+
+html {
+    font-style: var(--font-family);
+    font-size: 100%;
+    line-height: 1.5em;
+    margin: auto;
+    background-image: url("/img/bg.png");
+}
+header {
+    background-color: var(--HdColor);
+}
+#jmap {
+    font-weight: bold;
+}
+#gruppo {
+    background-image: url("/img/ouverture_logo.png");
+    text-indent: -999em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 10em;
+    line-height: 1.5em;
+}
+
+nav {
+    max-width: 1024px;
+    padding: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+
+#menu ul li a, #indice ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: var(--BgColor);
+    font-weight: bold;
+}
+
+#menu ul li a:hover, #indice ul li a:hover {
+    background-color: var(--MenuColor);
+    color: white;
+}
+
+#menu ul li {
+    display: inline-block;
+    width: 20%;
+    margin: 0 0.5em;
+    border: solid 1px black;
+}
+body {
+    text-align: center;
+}
+ul li {
+    list-style: none;
+}
+
+div {
+    width: 70%;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 2em;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#contatti li {
+    font-weight: bold;
+}
+/*****
+GLOSSARIO
+******/
+#gloss {
+    background-color: var(--BgColor);
+    font-weight: bold;
+}
+
+#indice ul li {
+    display: inline-block;
+    width: 3%;
+    border: solid 1px black;
+}
+
+#indice ul {
+    display: inline;
+}
+
+
+#glossario {
+    max-width: 1024px;
+    padding: 1em;
+    margin: auto;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 0.5em;
+    padding-left: 0;
+}
+
+
+
+#glossario dl > dt {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--glos);
+    display: inline;
+}
+
+#glossario dl > dd {
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.matricola, .version {
+    font-size: 0.8em;
+    color: var(--SpanColor);
+    font-weight: bold;
+}
