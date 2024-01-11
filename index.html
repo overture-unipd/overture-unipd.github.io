@@ -1,25 +1,113 @@
+
 <!doctype html>
 <html lang="it">
 <head>
 	<title>Overture</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/overture_logo.png">
 </head>
 <body>
-	<h1>Overture</h1>
-        <img src="overture_logo.png" width="150">
-	<h2>Informazioni</h2>
-	<p>Gruppo di progetto del corso di Ingegneria Del Software, UniPD 2023/2024</p>
-	<h2>Dove trovarci</h2>
-	<ul>
-		<li>Alla mail di contatto: <a href="mailto:overture.unipd@gmail.com">overture.unipd@gmail.com</a></li>
-		<li><a href="https://github.com/overture-unipd">Su GitHub</a></li>
-	</ul>
-	<h2>Documenti del gruppo</h2>
-	<ul>
-		<li><a href="/docs">Tutti i documenti (ultima build)</a></li>
-		<li><a href="https://github.com/overture-unipd/docs/releases/download/candidatura/candidatura.zip">Candidatura (archivio)</a></li>
-	</ul> 
+    <header>
+	    <h1 id="gruppo">Overture</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="#candidatura">Candidatura</a></li>
+                <li><a href="#rtb">RTB</a></li>
+                <li><a href="glossario.html">Glossario</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>Informazioni</h2>
+            <p>Gruppo di progetto del corso di Ingegneria Del Software, UniPD 2023/2024</p>
+            <p>Il capitolato scelto è <a href ="https://www.math.unipd.it/~tullio/IS-1/2023/Progetto/C8.pdf" id="jmap">Jmap: il nuovo protocollo per la documentazione</a></p>
+            <p>Riferimenit:</p>
+            <ul>
+                <li><a target="_blank" href="https://jmap.io/">JMAP</a></li>
+                <li><a target="_blank" href="https://github.com/iNPUTmice/jmap">Libreria iNPUTmice</a></li>
+                <li><a target="_blank" href="https://overture-unipd.github.io/docs/">Repository della documentazione</a></li>
+                <li><a target="_blank" href="https://github.com/overture-unipd/jmap">Repository del POC</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Documenti del gruppo</h2>
+            <div id="candidatura">
+                <h3>Candidatura</h3>
+                <ul>
+                    <li><a target="_blank" href="https://overture-unipd.github.io/docs/candidatura/lettera_di_presentazione.pdf">Lettera di Presentazione</a></li>
+                    <li><a target="_blank" href="https://overture-unipd.github.io/docs/candidatura/valutazione_capitolati_v1.1.pdf">Valutazione capitolati </a><span class = "version">v1.1</span></li>
+                    <li><a target="_blank" href="https://overture-unipd.github.io/docs/candidatura/dichiarazione_impegni_v1.1.pdf">Dichiarazione impegni </a><span class = "version">v1.1</span></li>
+			
+                </ul>
+                <h4>Verbali</h4>
+                <dl class ="documenti">
+                    <dt>Interni</dt>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/candidatura/verbali/interni/VI_2023_10_17_v1.1.pdf">2023-10-17 </a><span class = "version">v1.1</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/candidatura/verbali/interni/VI_2023_10_19_v1.1.pdf">2023-10-19 </a><span class = "version">v1.1</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/candidatura/verbali/interni/VI_2023_10_25_v1.1.pdf">2023-10-25 </a><span class = "version">v1.1</span></dd>
+                    <dt>Esterni</dt>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/candidatura/verbali/esterni/VE_2023_10_26-Zextras_v1.1.pdf">2023-10-26 </a><span class = "version">v1.1</span></dd>
+                </dl>
+            </div>
+            <div id="rtb">
+                <h3>RTB</h3>
+                <ul>
+                    <li><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/lettera_di_presentazione.pdf">Lettera di Presentazione</a></li>
+                </ul>
+                <h4>Documentazione</h4>
+                <dl class="documenti">
+                    <dt>Interna</dt>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/norme_di_progetto_v1.0.0.pdf">Norme di Progetto </a><span class = "version">v1.0</span></dd>
+                    <dt>Esterna</dt>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/analisi_dei_requisiti_v1.0.0.pdf">Analisi dei Requisiti </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/piano_di_progetto_v1.0.0.pdf">Piano di Progetto </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/piano_di_qualifica_v1.0.0.pdf">Piano di Qualifica </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/glossario_v1.0.0.pdf">Glossario </a><span class = "version">v1.0</span></dd>
+                </dl>
+                <h4>Verbali</h4>
+                <dl class ="documenti">
+                    <dt>Interni</dt>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_11_03_v1.1.pdf">2023-11-03 </a><span class = "version">v1.1</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_11_07_v1.0.pdf">2023-11-07 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_11_09_v1.0.pdf">2023-11-09 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_11_15_v1.0.pdf">2023-11-15 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_11_22_v1.1.pdf">2023-11-22 </a><span class = "version">v1.1</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_11_28_v1.1.pdf">2023-11-28 </a><span class = "version">v1.1</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_11_30_v1.0.pdf">2023-11-30 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_12_08_v1.1.pdf">2023-12-08 </a><span class = "version">v1.1</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_12_13_v1.0.pdf">2023-12-13 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2023_12_21_v1.0.pdf">2023-12-21 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2024_01_03_v1.0.pdf">2024-01-03 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/interni/verbali/VI_2024_01_09_v1.0.pdf">2024-01-09 </a><span class = "version">v1.0</span></dd>
+                    <dt>Esterni</dt>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/verbali/VE_2023_11_09_v1.1.pdf">2023-11-09 </a><span class = "version">v1.1</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/verbali/VE_2023_11_21_v1.0.pdf">2023-11-21 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/verbali/VE_2023_11_30_v1.0.pdf">2023-11-30 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/verbali/VE_2023_12_18_v1.0.pdf">2023-12-18 </a><span class = "version">v1.0</span></dd>
+                    <dd><a target="_blank" href="https://overture-unipd.github.io/docs/rtb/esterni/verbali/VE_2024_01_10_v1.0.pdf">2024-01-10 </a><span class = "version">v1.0</span></dd>
+                </dl>
+            </div>
+        </div>
+        <div id="contatti">
+            <h2>Contatti</h2>
+            <p>Mail di contatto: <a href="mailto:overture.unipd@gmail.com">overture.unipd@gmail.com</a></p>
+            <p>I membri del gruppo sono:</p>
+            <ul>
+                <li>Eleonora Amadori <span class="matricola">2089254</span></li>
+                <li>Michele Bettin <span class="matricola">2042883</span></li>
+                <li>Riccardo Bonavigo <span class="matricola">1225420</span></li>
+                <li>Francesco Constantino Bulychov <span class="matricola">2010004</span></li>
+                <li>Riccardo Fabbian <span class="matricola">2009110</span></li>
+                <li>Francesco Furno <span class="matricola">2042327</span></li>
+                <li>Alex Vedovato <span class="matricola">2042353</span></li>
+            </ul>
+        </div>
+    </main>
+
+    
 </body>
 </html>
 
