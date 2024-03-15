@@ -22,6 +22,10 @@ html {
 header {
     background-color: var(--HdColor);
 }
+h3 {
+    font-size: 1.5em;
+    background-color: var(--BgColor);
+}
 #jmap {
     font-weight: bold;
 }
@@ -36,7 +40,7 @@ header {
 }
 
 nav {
-    max-width: 1024px;
+    max-width: 1200px;
     padding: 1em;
     margin: auto;
     text-align: center;
@@ -58,7 +62,7 @@ nav {
 
 #menu ul li {
     display: inline-block;
-    width: 20%;
+    width: 15%;
     margin: 0 0.5em;
     border: solid 1px black;
 }
@@ -80,6 +84,21 @@ div {
 
 #contatti li {
     font-weight: bold;
+}
+
+#tornaSu {
+    padding: 1em;
+    font-size: 2em;
+    background-image: url(../img/tornaSu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    text-indent: -999em;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    
 }
 /*****
 GLOSSARIO
